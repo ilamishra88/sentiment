@@ -20,7 +20,7 @@ class App extends Component {
     };
 
     analyzeSentence() {
-        fetch('http://myvmila.eastus.cloudapp.azure.com:8180/sentiment', {
+        fetch('http://myvmila.eastus.cloudapp.azure.com:8082/sentiment', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
